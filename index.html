@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html> 
-<head> <title> REGISTRATION FROM </title> </head>    
+<head> <title> REGISTRATION FROM </title> 
+<style>
+#bts
+{
+
+height:30px;
+width:80px;
+color:cyan;
+background-color:black;
+font-size:16px;
+border-radius:6px;
+}
+</style>
+</head>    
 <body>
 <script>
     function login(){
@@ -17,30 +30,30 @@
 <b> <u> STUDENT DETAILS: </u></b>
 <br>
 <br> 
-FIRST NAME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="  ENTER FIRST NAME">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-LAST NAME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="   ENTER LAST NAME">
+FIRST NAME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="  ENTER FIRST NAME" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+LAST NAME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="   ENTER LAST NAME" required>
 <br>
 <br>
-CLASS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=" text" placeholder=" ENTER YOUR CLASS">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-SECTION &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select><option>__________</option><option>A</option><option>B</option><option>C</option><option>D</option></select>
+CLASS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;<input type=" text" placeholder=" ENTER YOUR CLASS" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+SECTION &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select><option>__________</option><option>A</option><option>B</option><option>C</option><option>D</option></select required> &nbsp;&nbsp;&nbsp;
 <br>
 <br>
 ROL.NO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" placeholder=" ENTER ROLL.NO">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-BLOOD GROUP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select><option>__________<option>A+</option><option>B+</option><option>O+</option><option>AB+</option></select>
+BLOOD GROUP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select><option>__________<option>A+</option><option>B+</option><option>O+</option><option>AB+</option></select required>
 <br>
 <br>
-DATE OF BIRTH :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" placeholder="DD-MM-YYYY">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PHONE.NO : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number">
+DATE OF BIRTH :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" placeholder="DD-MM-YYYY" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PHONE.NO : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" required>
 <br>
 <br>
-E-mail : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-PASSWORD :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password">
+E-mail : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+PASSWORD :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" required>
 
 <br>
 <br>
 <br>
-SELECT GENDER : <input type="radio" name="gender"> MALE &nbsp;&nbsp;
-                <input type="radio" name="gender"> FEMALE &nbsp;&nbsp;
-                <input type="radio" name="gender"> OTHER
+SELECT GENDER : <input type="radio" name="gender" required> MALE &nbsp;&nbsp;
+                <input type="radio" name="gender" required> FEMALE &nbsp;&nbsp;
+                <input type="radio" name="gender" required> OTHER
 <br>
 <br>
 <center> X~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~x~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~X</center>
@@ -51,22 +64,22 @@ SELECT GENDER : <input type="radio" name="gender"> MALE &nbsp;&nbsp;
 ........<U> {CHOOSE ONE OF THEM GIVEN BELOW}</U>......... </H2> </CENTER>
 </font>
 <br>
-<CENTER> SELECT SUBJECT :  <input type="radio" name="subject"> ENGLISH
-                  <input type="radio" name="subject"> HINDI
-                  <input type="radio" name="subject"> MATHS 
-                  <input type="radio" name="subject"> SCIENCE
-                  <input type="radio" name="subject"> COMPUTER
-                  <input type="radio" name="subject"> G.K </CENTER>
+<CENTER> SELECT SUBJECT :  <input type="radio" name="subject" required> ENGLISH
+                           <input type="radio" name="subject" required> HINDI
+                           <input type="radio" name="subject" required> MATHS 
+                           <input type="radio" name="subject" required> SCIENCE
+                           <input type="radio" name="subject" required> COMPUTER
+                           <input type="radio" name="subject" required> G.K </CENTER>
 <br>
 <br>
 
-&nbsp;<input type="submit" style="background-color:rgb(89, 195, 236) ;" value="SUBMIT">
-&nbsp;&nbsp;&nbsp;&nbsp; 
-<input type="RESET" style="background-color:rgb(89, 195, 236) ;" value="RESET">
+&nbsp;<input type="submit"  value="SUBMIT" id="bts">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<input type="RESET" value="RESET" id="bts">
 
 <font color="cyan">
 </font>
-<center><a href="profile.html">DEVELOPER PROFILE </a></center>
+<center><a href="profile.html"> DEVELOPER PROFILE </a></center>
 </div>
 </form>
 </body>
